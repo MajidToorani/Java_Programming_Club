@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <error-page>
+        <exception-type>java.lang.Throwable</exception-type>
+        <location>/TKMTError.jsp</location>
+    </error-page>
+    <context-param>
+        <param-name>booksFilePath</param-name>
+        <param-value>/WEB-INF/books.txt</param-value>
+    </context-param>
+    <servlet>
+        <servlet-name>TKMTLoanServlet.java</servlet-name>
+        <servlet-class>club.cart.TKMTLoanServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>TKMTCartServlet.java</servlet-name>
+        <servlet-class>club.cart.TKMTCartServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>TKMTClearCartServlet.java</servlet-name>
+        <servlet-class>club.cart.TKMTClearCartServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TKMTLoanServlet.java</servlet-name>
+        <url-pattern>/TKMTLoan</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>TKMTCartServlet.java</servlet-name>
+        <url-pattern>/TKMTCart</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>TKMTClearCartServlet.java</servlet-name>
+        <url-pattern>/TKMTClearCart</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>TKMTIndex.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>

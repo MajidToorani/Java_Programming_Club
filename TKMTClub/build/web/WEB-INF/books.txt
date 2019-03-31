@@ -1,0 +1,4 @@
+101|Murach Java Programming 5e|1
+201|Murach Java Servlet and JSP 3e|3
+301|Murach C# 2005|2
+401|Murach MySQL 2e|1
