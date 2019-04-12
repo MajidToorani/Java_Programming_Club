@@ -1,6 +1,6 @@
 <%-- 
     Document   : TKMTBanner
-    Created on : March 30, 2019, 4:24:40 PM
+    Created on : March 30, 2019
     Author     : tkhaleghi5062
 --%>
 
@@ -10,6 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" type="text/css" href="styles/main.css"/>
+        <link rel="stylesheet" type="text/css" href="styles/myStyle.css"/>
          <!--script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script-->
         <title>TKMT Programming Club</title>
     </head>

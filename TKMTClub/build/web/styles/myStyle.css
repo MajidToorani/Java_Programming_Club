@@ -1,0 +1,19 @@
+
+.errorMsg{
+    color:red;
+}
+
+/* The styles for the tables */
+table {
+    border: none;
+    /*width: 50em;*/
+}
+th, td {
+     /*border: 1px solid black;*/
+    border: none;
+    text-align: left;
+    padding: 0.5em;
+}
+.right {
+    text-align: right;
+}

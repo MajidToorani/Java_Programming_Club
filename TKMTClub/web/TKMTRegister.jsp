@@ -1,7 +1,7 @@
 <%-- 
     Document   : TKMTRegister
-    Created on : Jan 25, 2019, 7:30:07 PM
-    Author     : taran
+    Created on : Jan 25, 2019
+    Author     : Taraneh
 --%>
 
 <jsp:include page="TKMTBanner.jsp" />
